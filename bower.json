@@ -1,0 +1,22 @@
+{
+  "name": "sawmill-ui",
+  "authors": [
+    "Kyle Shevlin <kyle.a.shevlin@gmail.com>"
+  ],
+  "description": "A collection of styles based on my Sawmill WordPress theme",
+  "main": "base.scss",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "shevy": "^2.1.0",
+    "condo": "^1.0.2"
+  }
+}

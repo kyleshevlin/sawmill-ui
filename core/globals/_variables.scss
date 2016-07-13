@@ -1,0 +1,57 @@
+//////////////////////////////
+// Variables
+//////////////////////////////
+
+// Breakpoints Map
+$breakpoints: (
+  'alpha': 481px,
+  'bravo': 769px,
+  'charlie': 1025px,
+  'delta': 1350px
+);
+
+// Colors
+$c-brand: hsl(197, 60%, 50%);
+
+$c-white: #fff;
+$c-black: #333;
+$c-light-gray: lighten(desaturate($c-brand, 35%), 45%);
+
+// Font Stacks
+$f-serif: serif;
+$f-sans: sans-serif;
+$f-droid: 'Droid Serif', $f-serif;
+$f-cata: 'Catamaran', $f-sans;
+
+// Functional Fonts
+$f-headings: $f-cata;
+$f-content: $f-droid;
+
+// Typography Map
+$shevy: (
+  base-font-size: 1rem,
+  base-line-height: 1.8,
+  base-font-scale: (2.4414, 1.9531, 1.5625, 1.25, 1, 1),
+  margin-bottom: true,
+  proximity: true,
+  proximity-factor: .85
+);
+
+// Z-indexes
+$z-indexes: (
+  'default': 'auto',
+  'header': 2,
+  'nav': 10
+);
+
+// Sizes
+$s-header-height: 60px;
+$s-header-width: 320px;
+
+// Spacing
+$bs: bs();
+
+// Condo Map
+$condo: (
+  columns: 4
+);
